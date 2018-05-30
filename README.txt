@@ -1,1 +1,1 @@
-Official Site for Friday Nite Fights weekly Fortnite Tournaments
+Official Site for Friday Nite Fights weekly Fortnite Tournament
