@@ -1,0 +1,8 @@
+{
+  "db": {
+    "uri": "mongodb://Zarnerz:poppylop0@ds241570.mlab.com:41570/fnfdb"
+  },
+  "example": {
+    "uri": "mongodb://username:secret@ds999999.mlab.com:37710/classexample"
+  }
+}
