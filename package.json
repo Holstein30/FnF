@@ -1,0 +1,23 @@
+{
+  "name": "fnf",
+  "version": "1.0.0",
+  "description": "Official Site for Friday Nite Fights weekly Fortnite Tournament",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zarnerz/FnF.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zarnerz/FnF/issues"
+  },
+  "homepage": "https://github.com/Zarnerz/FnF#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
