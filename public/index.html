@@ -158,19 +158,19 @@
 			<!-- Contact -->
 			<article id="contact">
 				<h2 class="major">Sign Up</h2>
-				<form method="post" action="#">
+				<form method="post" action="/api/signup">
 					<div class="field half first">
 						<label for="name">Name</label>
 						<input type="text" name="name" id="name" required/>
 					</div>
 					<div class="field half">
 						<label for="email">Gamertag</label>
-						<input type="text" name="email" id="email" required/>
+						<input type="text" name="gamertag" id="email" required/>
 					</div>
 					<div class="field">
 						<label for="demo-category">Format</label>
 						<div class="select-wrapper">
-							<select name="demo-category" id="demo-category" required>
+							<select name="format" id="demo-category" required>
 								<option value="">Select an Option</option>
 								<option value="1">1v1</option>
 								<option value="2">2v2</option>
@@ -180,7 +180,7 @@
 					</div>
 					<ul class="actions">
 						<li>
-							<input type="submit" value="Submit" class="special" />
+							<input id="signup" type="submit" value="Submit" class="special" />
 						</li>
 						<li>
 							<input type="reset" value="Reset" />
