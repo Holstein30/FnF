@@ -4,6 +4,8 @@ const mongoose = require("mongoose");
 const path = require("path");
 const routes = require("./routes/api");
 
+const config = require("./config").init();
+
 const app = express();
 
 const PORT = process.env.PORT || 3000;
@@ -25,7 +27,7 @@ app.get("*", function(req, res) {
 // var db = require("./models");
 
 mongoose.Promise = Promise;
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/fnfdb");
+mongoose.connect(config.db.uri || "mongodb://localhost/fnfdb");
 
 app.listen(PORT, function() {
   console.log("App listening on PORT: " + PORT);
