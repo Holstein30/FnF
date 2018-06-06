@@ -10,7 +10,7 @@ module.exports = {
     };
     db
       .create(user)
-      .then(dbUser => res.redirect("/"))
+      .then(dbUser => res.redirect("/#success"))
       .catch(err => res.status(422).json(err));
   }
 };
